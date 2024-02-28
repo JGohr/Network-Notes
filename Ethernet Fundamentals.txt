@@ -1,0 +1,19 @@
+############################  Ethernet Fundamentals  ####################################
+
+Deterministic vs Contention Based:
+    - Deterministic: Very organized and orderly, requires electronic token to transmit
+    - Contention Based: Very chaotic and can transmit whenver possible
+        - Causes collisions
+        - Ethernet chose to use contention based networks 
+
+    Carrier Sense Multiple Access w/ Collision Detection (CSMA/CD):
+        - Prevents collisions by defering transmission until no stations are transmitting
+        - Carrier Sensing: Listen over the medium for data transmission
+        - Upon Collision: Hault transmission and re-transmit after a random backoff timer
+
+        Collision Domain: Each area of the network that shares a single segment
+        Devices operate in half-duplex mode when connected to a hub
+        Keep collision domains small in networks
+        Ethernet Switch: Increases scalability of a network by creating multiple collision domains
+
+########################################################################################
