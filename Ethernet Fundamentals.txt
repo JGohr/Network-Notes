@@ -38,12 +38,13 @@ Types of Hubs:
     - Active: Repeats signal with amplification
     - Smart: Active hub enhanced with SNMP (Simple Network Mgmt)
 
-Collision Domains: Multiple network segments connected by hubs
+Layer 2:
+    - Bridge: Analyzes source MAC addresses and makes smart forwarding choices based on the destination MAC
+    - Switch (Multiport Bridge): L2 device that connects multiple network segments together
 
-Bridge: Analyzes source MAC addresses and makes smart forwarding choices based on the destination MAC
-Switch (Multiport Bridge): L2 device that connects multiple network segments together
-Router: L3 device that connects multiple networks and makes forwading decisions based on logical net info
-L3 Switch: Makes L3 routing decisions and then interconnects entire networks, not just segments
+Layer 3:
+    - Router: L3 device that connects multiple networks and makes forwading decisions based on logical net info
+    - L3 Switch: Makes L3 routing decisions and then interconnects entire networks, not just segments
 
 DEVICE TYPE | COLLISION DOMAINS | BROADCAST DOMAINS | OSI LAYER
 HUB | 1CD | 1BD | OSI 1
@@ -51,4 +52,38 @@ BRIDGE| 1CD PER PORT | 1BD | OSI 2
 SWITCH | 1CD PER PORT | 1BD | OSI 2
 MULTILAYER SWITCH | 1CD PER PORT | 1BD PER PORT | OSI 3+
 ROUTER | 1CD PER PORT | 1BD PER PORT | OSI 3+
+########################################################################################
+
+#####################
+#####  Additional Ethernet Switch Features  #######################
+
+Examples of Ethernet Features:
+    - VLANS
+    - Trunking
+    - Spanning Tree Protocol
+    - Link Aggregation (IEEE 802.3ad)
+    - POE (Power Over Ethernet)
+    - Port Monitoring
+    - User Auth
+
+Link Aggregation: Combines multiple physical connections into a single logical conncetion to minimize congestion
+    - IEEE 802.3ad
+    - Congestion can occur when ports all operate at the same speed
+    - 3 incoming ports at 100Mbps, 1 outgoing port at 100Mbps, outgoing needs to be 300Mbps
+        - We can use remaining outgoing ports to combine them virtually to open up more bandwidth
+
+Power Over Ethernet: 
+    - POE (802.3af) / POE+ (802.3at)
+    - CAT5 or higher
+    - POE provides up to 15.4 watts / POE+ provides up to 25.5 watts
+    - PSE (Power Sourcing Devices) / PD (Powered Devices)
+
+Port Monitoring: Makes a copy of all traffic destined for a port and sends it to another port
+    - Used for network analysts to monitor traffic
+
+User Auth: Requires users to authenticate themselves before gaining access to the network
+    - 802.1x
+
+Managen
+
 ########################################################################################

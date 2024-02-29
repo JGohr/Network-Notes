@@ -41,11 +41,12 @@ PHYSICAL LAYER (Layer 1)
     Baseband uses a reference clock to utilize synchronous communication
     Base = Single, Broad = Multiple
 
-    Multi-Plexing
-        Time Division Multiplexing(TDM): Each session takes a turn, using time slots, to share the medium between all users
-        StatTDM: Dynamically allocates the time slots on a as needed basis 
-        Frequency Division Multiplexing: Divides the medium into channels based on frequency and each session is transmitted over a different 
-        Multiplexing allows multiple people to use a baseband connection 
+    Multi-Plexing: Multiplexing allows multiple people to use a baseband connection 
+        - Time Division Multiplexing(TDM): Each session takes a turn, using time slots, to share the medium between all users
+        - StatTDM: Dynamically allocates the time slots on a as needed basis 
+        - Frequency Division Multiplexing: Divides the medium into channels based on frequency and each session is transmitted over a different 
+        
+    Layer 1 Device: Hub
 ##############################  End of Section 2  ####################################
 
 ##############################  Section 3  ####################################
