@@ -1,0 +1,150 @@
+### Copper Cabling
+
+ RG-6 : Local cable companies
+ RG-59 : Used to transmit video like satellite tv
+
+Coaxial Cable Connectors: F-type (Cable TV and Cable Modems) / BNC(Used in older networks)
+
+ Types of Copper Cables:
+        Twinaxial Cable: Similar to coaxiial, but uses two conducters instead of a single copper line
+            - Typically used for short range applications due to cost
+        Serial Cable: Straight copper wires, DB-9 or DB-25
+        Twisted Pair Cable: Ethernet
+            - Less twists means more exposure to EMF which disrupts data flow
+            - Higher CAT number means higher speed
+            - UTP: Unshileded twisted pair, more common less expensive
+            - STP: Shielded twisted pair, more expensive
+            - Connector Types:
+                -RJ45: 8 Pin connector, ethernet based networks
+                -RJ11: 6 Pin connector, phone systems connecting to landline
+
+RJ = Registered Jack
+    Used to carry voice or data which specifies the stadards a device uses to connect to a network
+
+Bandwidth: Theoretical measure of how much data could be transferred
+    Throughput: Actual measure of how much data is succesfully transferred
+
+CAT Types:
+    nBASE defines the speed of the cable
+    BASE-T = Twisted Pair , BASE-TX = Twisted pair fast ethernet
+        - CAT3: 10BASE-T | 10Mbps | 100m
+        - CAT5: 100BASE-TX | 100Mbps | 100m
+        - CAT5e: 1000BASE-T | 1000Mbps OR 1Gbps | 100m
+        - CAT6: (1000BASE-T | 1Gbps | 100m) ### OR ### (10GBASE-T | 10Gbps | 55m)
+        - CAT6a: 10GBASE-T | 10Gbps | 100m 
+        - CAT7: 10GBASE-T | 10Gbps | 100m
+        - CAT8: 40GBASE-T | 40Gbps | 30m
+
+Exceptions: 
+        - Cat6 can operate at 10Gbps but the distance is shortened to 55m
+        - Cat8 can operate at 30m due to speed
+	    - Cat8 will be the only bandwidth that is not just multiplied by 10
+
+Keep cable runs under 70m from the IDF (Intermediate Disutribution Frame) to the client 
+
+Straight Through Cables (Patch Cables): Contains exact same pinouts on both ends of the cable
+    Crossover Cables: Swap the send and recieve order on one end
+        Wiring Schemes:
+            - 568A and 568B, B is preferred
+            - Creating Cross Over:
+                ST: SG G SO BL SBL O SB B
+                CROSSOVER: SO O SG B SBL G SB B 
+        DCE: Data communication equipment (Switch, modem, hub, bridge)
+        DTE (Data Terminal Equipment): "Endpoint" devices (Desktop, Router, Server) that connect to DCE
+        Straight Through can connect: DTE -> DCE & DCE -> DTE
+        Crossover can connect: DTE -> DTE & DCE -> DCE
+        Switch to a switch requires a crossover cable
+
+MDIX: Allows a straight through cable to be simulated as a crossover cable
+    Assume for exam that switches don't support MDIX and a crossover cable must be used
+
+Plenum Cable: Coating used on outer layer of twisted pair cables that provides fire-retardant chemical layer
+	-Plenum cables are for ceilings, walls, raised floors etc. Non visible areas
+
+***
+## Fiber Media
+
+Fiber Optic Cable: Uses light from a light emitting diode or laser to transmit data
+
+Greater range and data capacity
+
+Cons: Expensive, difficult to work with 
+
+Categories: SMF (Single Mode Fiber) & MMF (Multimode Fibers)
+    - SMF: Longer distances and smaller core size allows for only a single mode of travel for the signal
+        - Core Size: 8.3-10u (Microns)
+        - More expensive
+        - yellow shieth 
+    - MMF: Shorter distances and larger core size for multiple modes of travel for signal
+        - Core Size: 50 -100u (Microns)
+        - Used up to 2kms or less
+        - blue shieth
+
+Connector Types:
+    - SC (Subscriber Connector / "Stick and Click")
+        - Typically used for fiber connections in LAN enviornments
+    - ST (Straight Tip / "Stick and Twist") 
+    - LC (Lucent Connector / "Love Connector", side by side connectors)
+    - MTRJ (Mechanical Transfer Registered Jack) 
+
+Connector Contact Types:
+    - APC (Angled Physical Contact)
+        - Less Noise and stronger signal
+        - Green connector
+    - UPC (Ultra Physical Contact)
+        - More noise, possible singnal loss
+        - Blue
+        - Suitable for enviorments that dont mind return loss (precision) like ethernet & LAN
+
+### Fiber Multiplexing and Transceivers
+
+Wavelength Divisional Multiplexing (WDM): Combining multiple fiber signals into one line
+
+Types of Multiplexing:
+    - CWDM (Coarse Wavelength Divisional Multiplexing)
+        - 18 available channels
+        - 20nm channel distance 
+        - Ethernet: Up to 10Gbps / Fiber up to 16Gbps
+    - DWDM (Dense Wavelength Divisional Multiplexing)
+        - 80 Available channels
+        - 0.8nm channel distance 
+        - Up to 8Tbps (100Gbps / channel)
+
+Transceivers: Conduct layer 1 to layer 1 conversions of media (Fiber to Copper)
+	Communication Modes:
+        - Bidirectional (Half Duplex): Devices need to take turns communicating
+            - Ex: Walkie Talkies
+        - Duplex (Full Duplex): Devices that can communicate at the same time
+            - Ex: Cell phone 
+
+GBIC: Hot-pluggable gigabit ethernet transceiver that can take in copper or fiber
+
+***
+## Cable Distribution
+
+Cable Distribution System: Organized system that connects the networks backbone in the MDF to the IDF
+
+Demarcation Point: Where the ISP connection ends and your network begins
+
+Main Distribution Frame (MDF): Telecom closet which serves as the main start for all interior cabling
+Intermediate Disutribution Frame (IDF): Contains an edge switch and patch panel/etc to support nearby clients
+
+Backbone Switch: Connects to everything else on the network, located in the MDF
+
+Cable Tray: Structual system to securely support the cables and raceways
+
+Punch Blocks:
+    - 66 Block: Older analog/CAT3 systems that support 25-pair cabling 
+    - 110 Block: High speed networks for CAT5+ cabling, uses insulation dispalacement connectors
+    - Krone Block: European alternatie to a 110 block, only difference is the angle of the contacts
+    - BIX Block: Another alternative uses various sizes of punchdown blocks
+
+Patch Panel: Seperate plate to punch into the back from punchblock instead of tying directly into switch
+    - Protects switch ports from wear and tear 
+
+Fiber Distribution Panel: Fibers version of a patch panel which uses fibner connectors instead of punching
+
+Toner Probe - Uses a metal tip to physically touch certain connections to test, also identifies the port
+***
+
+

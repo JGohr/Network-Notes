@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fbd5eb9a9dc86c2b",
+        "id": "fe2f13d94105110b",
         "type": "tabs",
         "children": [
           {
-            "id": "0a883fbfebdc7f20",
+            "id": "aa98310e541dde3a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Cabling & Media Distribution.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cabling & Media Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cabling & Media Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cabling & Media Distribution.md"
+              }
             }
           }
         ]
@@ -138,9 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a883fbfebdc7f20",
+  "active": "aa98310e541dde3a",
   "lastOpenFiles": [
+    "Cabling & Media Distribution.md",
+    "Ethernet Fundamentals.md",
     "OSI Model.md",
+    "TCP IP.md",
     "Welcome.md"
   ]
 }
