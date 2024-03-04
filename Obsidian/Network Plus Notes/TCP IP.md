@@ -78,11 +78,11 @@ Zen Map: Graphical interface for Nmap
 
 TCP: Conducts a three way handshake between a client and a server while using windowing for optimized traffic | Connection Oriented
 
-UDP: Detects if packets are corrupted when they are recieved using a checksum | Connectionless but faster
+UDP: Detects if packets are corrupted when they are received using a checksum | Connectionless but faster
 
-Generic Routing Encapsulation (GRE): Creates a tunnel to share data between two devices over a public network | 'No encrpytion'
+Generic Routing Encapsulation (GRE): Creates a tunnel to share data between two devices over a public network | 'No encryption'
 
-Internet Control Message Protocol (ICMP): Used to communicate info about network connectivity back to the sender, sends ICMP datagrams | Example: ping command in cmd
+Internet Control Message Protocol (ICMP): Used to communicate info about network connectivity back to the sender, sends ICMP datagrams | Example: ping command in CMD
 
 IPSec: Used to protect one or more data flows between peers | Provides confidentiality, integrity and authentication on data. A form of tunneling.
     - Lets you encrypt your tunnel
