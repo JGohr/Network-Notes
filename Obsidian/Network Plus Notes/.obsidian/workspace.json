@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "00e1bd12f073f25c",
+        "id": "be75eb286cbec302",
         "type": "tabs",
         "children": [
           {
-            "id": "c73ca638d54123a3",
+            "id": "e8117073c24f9a2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Links/Bridge.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Links/Bridge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Links/Bridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Links/Bridge.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,18 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c73ca638d54123a3",
+  "active": "e8117073c24f9a2d",
   "lastOpenFiles": [
-    "Links/Hub.md",
-    "Links/Router.md",
-    "Links/Multiplexing.md",
-    "Links/Multi-layer switch.md",
     "Ethernet Fundamentals.md",
-    "OSI Model.md",
     "Cabling & Media Distribution.md",
-    "Links/Switch.md",
+    "IP Addressing.md",
     "TCP IP.md",
+    "Links/Router.md",
+    "OSI Model.md",
+    "Links/Multiplexing.md",
+    "Links/Hub.md",
+    "Links/Multi-layer switch.md",
     "Links/Bridge.md",
+    "Links/Switch.md",
     "Links",
     "Bridges.md",
     "Switches.md",

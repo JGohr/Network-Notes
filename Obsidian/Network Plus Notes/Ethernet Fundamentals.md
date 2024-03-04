@@ -20,13 +20,15 @@ Collision Domain: Each area of the network that shares a single segment
 ***
 ### Fiber Cable Standards:
 
-STANDARD | MODE | BANDWIDTH | DISTANCE
-    - 100BASE-FX | MMF | 100 Mbps | 2km
-    - 100BASE-SX | MMF | 100Mbps | 300m
-    - 1000BASE-SX | MMF | 1000Mbps | 220-550m
-    - 1000BASE-LX | SMF/MMF | 1000Mbps | 5km (SMF) or 550m (MMF)
-    - 10GBASE-SR | MMF | 10Gbps | 400m
-    - 10GBASE-LR | SMF | 10Gbps | 10km
+| Fiber Standard    | Mode | Bandwidth | Distance   |
+| ----------------- | ---- | --------- | ---------- |
+| 100BASE-FX        | MMF  | 10Mbps    | 200km      |
+| 100BASE-SX        | MMF  | 100Mbps   | 300m       |
+| 1000BASE-SX       | MMF  | 1000Mbps  | 220 - 550m |
+| 1000BASE-LX (SMF) | SMF  | 1Gbps     | 5km        |
+| 1000BASE-LX (MMF) | MMF  | 1Gbps     | 550m       |
+| 10GBASE-SR        | MMF  | 10Gbps    | 400m       |
+| 10GBASE-LR        | SMF  | 10Gbps    | 10km       |
 
 S = Short Distance & MMF 
 L = Long Distance & SMF ## BUT ## LX = SMF/MMF 
@@ -47,12 +49,13 @@ Layer 3:
     - Router: L3 device that connects multiple networks and makes forwarding decisions based on logical net info
     - L3 Switch: Makes L3 routing decisions and then interconnects entire networks, not just segments
 
-DEVICE TYPE | COLLISION DOMAINS | BROADCAST DOMAINS | OSI LAYER
-HUB | 1CD | 1BD | OSI 1
-BRIDGE| 1CD PER PORT | 1BD | OSI 2
-SWITCH | 1CD PER PORT | 1BD | OSI 2
-MULTILAYER SWITCH | 1CD PER PORT | 1BD PER PORT | OSI 3+
-ROUTER | 1CD PER PORT | 1BD PER PORT | OSI 3+
+| Device Type        | Collision Domains | Broadcast Domains | OSI Layer |
+| ------------------ | ----------------- | ----------------- | --------- |
+| Hub                | 1                 | 1                 | 1         |
+| Bridge             | 1 Per Port        | 1                 | 2         |
+| Switch             | 1 Per Port        | 1                 | 2         |
+| Multi Layer Switch | 1 Per Port        | 1 Per Port        | 3+        |
+| Router             | 1 Per Port        | 1 Per Port        | 3+        |
 ***
 #####  Additional Ethernet Switch Features  #######################
 

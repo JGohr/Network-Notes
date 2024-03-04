@@ -1,44 +1,48 @@
 ### Copper Cabling
 
- RG-6 : Local cable companies
- RG-59 : Used to transmit video like satellite tv
+##### RG-6 vs RG-59:
+- RG-6 : Local cable companies
+- RG-59 : Used to transmit video like satellite tv
+##### Coaxial Cable Connectors: 
+- F-type (Cable TV and Cable Modems) 
+- BNC (Used in older networks)
 
-Coaxial Cable Connectors: F-type (Cable TV and Cable Modems) / BNC(Used in older networks)
+##### Types of Copper Cables:
+Twin axial Cable: Similar to coaxial, but uses two conductors instead of a single copper line
+	Typically used for short range applications due to cost
+	**Serial Cable**: Straight copper wires, DB-9 or DB-25
+    **Twisted Pair Cable**:
+        - Less twists means more exposure to EMF which disrupts data flow
+        - Higher CAT number means higher speed
+        - UTP: Unshielded twisted pair, more common less expensive
+        - STP: Shielded twisted pair, more expensive
+         - **Connector Types**:
+            -RJ45: 8 Pin connector, ethernet based networks
+            -RJ11: 6 Pin connector, phone systems connecting to landline
 
- Types of Copper Cables:
-        Twin axial Cable: Similar to coaxial, but uses two conductors instead of a single copper line
-            - Typically used for short range applications due to cost
-        Serial Cable: Straight copper wires, DB-9 or DB-25
-        Twisted Pair Cable: Ethernet
-            - Less twists means more exposure to EMF which disrupts data flow
-            - Higher CAT number means higher speed
-            - UTP: Unshielded twisted pair, more common less expensive
-            - STP: Shielded twisted pair, more expensive
-            - Connector Types:
-                -RJ45: 8 Pin connector, ethernet based networks
-                -RJ11: 6 Pin connector, phone systems connecting to landline
+##### RJ (Registered Jack)
+Used to carry voice or data which specifies the standards a device uses to connect to a network
 
-RJ = Registered Jack
-    Used to carry voice or data which specifies the standards a device uses to connect to a network
+###### Bandwidth: Theoretical measure of how much data could be transferred
+###### Throughput: Actual measure of how much data is successfully transferred
 
-Bandwidth: Theoretical measure of how much data could be transferred
-    Throughput: Actual measure of how much data is successfully transferred
+**CAT Types / Notation / Bandwidth & Distance**
 
-CAT Types:
-    nBASE defines the speed of the cable
-    BASE-T = Twisted Pair , BASE-TX = Twisted pair fast ethernet
-        - CAT3: 10BASE-T | 10Mbps | 100m
-        - CAT5: 100BASE-TX | 100Mbps | 100m
-        - CAT5e: 1000BASE-T | 1000Mbps OR 1Gbps | 100m
-        - CAT6: (1000BASE-T | 1Gbps | 100m) ### OR ### (10GBASE-T | 10Gbps | 55m)
-        - CAT6a: 10GBASE-T | 10Gbps | 100m 
-        - CAT7: 10GBASE-T | 10Gbps | 100m
-        - CAT8: 40GBASE-T | 40Gbps | 30m
+| CAT Type   | Base Notation | Bandwidth | Distance |
+| ---------- | ------------- | --------- | -------- |
+| CAT3       | 10BASE-T      | 10Mbps    | 100m     |
+| CAT5       | 100BASE-TX    | 100Mbps   | 100m     |
+| CAT5e      | 1000BASE-T    | 1000Mbps  | 100m     |
+| CAT6 (1G)  | 1000BASE-T    | 1Gbps     | 100m     |
+| CAT6 (10G) | 10GBASE-T     | 10Gbp     | 55m      |
+| CAT6a      | 10GBASE-T     | 10Gbps    | 100m     |
+| CAT7       | 10GBASE-T     | 10Gbps    | 100m     |
+| CAT8       | 40GBASE-T     | 40Gbps    | 30m      |
 
 Exceptions: 
-        - Cat6 can operate at 10Gbps but the distance is shortened to 55m
-        - Cat8 can operate at 30m due to speed
-	    - Cat8 will be the only bandwidth that is not just multiplied by 10
+    - Cat6 can operate at 10Gbps but the distance is shortened to 55m
+    - Cat8 can operate at 30m due to speed
+	- Cat8 will be the only bandwidth that is not just multiplied by 10
 
 Keep cable runs under 70m from the IDF (Intermediate Distribution Frame) to the client 
 
