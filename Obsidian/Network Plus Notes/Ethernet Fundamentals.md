@@ -44,7 +44,7 @@ Layer 2:
     - Switch (Multiport Bridge): L2 device that connects multiple network segments together
 
 Layer 3:
-    - Router: L3 device that connects multiple networks and makes forwading decisions based on logical net info
+    - Router: L3 device that connects multiple networks and makes forwarding decisions based on logical net info
     - L3 Switch: Makes L3 routing decisions and then interconnects entire networks, not just segments
 
 DEVICE TYPE | COLLISION DOMAINS | BROADCAST DOMAINS | OSI LAYER

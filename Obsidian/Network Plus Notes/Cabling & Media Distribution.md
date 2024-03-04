@@ -6,23 +6,23 @@
 Coaxial Cable Connectors: F-type (Cable TV and Cable Modems) / BNC(Used in older networks)
 
  Types of Copper Cables:
-        Twinaxial Cable: Similar to coaxiial, but uses two conducters instead of a single copper line
+        Twin axial Cable: Similar to coaxial, but uses two conductors instead of a single copper line
             - Typically used for short range applications due to cost
         Serial Cable: Straight copper wires, DB-9 or DB-25
         Twisted Pair Cable: Ethernet
             - Less twists means more exposure to EMF which disrupts data flow
             - Higher CAT number means higher speed
-            - UTP: Unshileded twisted pair, more common less expensive
+            - UTP: Unshielded twisted pair, more common less expensive
             - STP: Shielded twisted pair, more expensive
             - Connector Types:
                 -RJ45: 8 Pin connector, ethernet based networks
                 -RJ11: 6 Pin connector, phone systems connecting to landline
 
 RJ = Registered Jack
-    Used to carry voice or data which specifies the stadards a device uses to connect to a network
+    Used to carry voice or data which specifies the standards a device uses to connect to a network
 
 Bandwidth: Theoretical measure of how much data could be transferred
-    Throughput: Actual measure of how much data is succesfully transferred
+    Throughput: Actual measure of how much data is successfully transferred
 
 CAT Types:
     nBASE defines the speed of the cable
@@ -40,10 +40,10 @@ Exceptions:
         - Cat8 can operate at 30m due to speed
 	    - Cat8 will be the only bandwidth that is not just multiplied by 10
 
-Keep cable runs under 70m from the IDF (Intermediate Disutribution Frame) to the client 
+Keep cable runs under 70m from the IDF (Intermediate Distribution Frame) to the client 
 
 Straight Through Cables (Patch Cables): Contains exact same pinouts on both ends of the cable
-    Crossover Cables: Swap the send and recieve order on one end
+    Crossover Cables: Swap the send and receive order on one end
         Wiring Schemes:
             - 568A and 568B, B is preferred
             - Creating Cross Over:
@@ -74,15 +74,15 @@ Categories: SMF (Single Mode Fiber) & MMF (Multimode Fibers)
     - SMF: Longer distances and smaller core size allows for only a single mode of travel for the signal
         - Core Size: 8.3-10u (Microns)
         - More expensive
-        - yellow shieth 
+        - yellow sheath 
     - MMF: Shorter distances and larger core size for multiple modes of travel for signal
         - Core Size: 50 -100u (Microns)
         - Used up to 2kms or less
-        - blue shieth
+        - blue sheath
 
 Connector Types:
     - SC (Subscriber Connector / "Stick and Click")
-        - Typically used for fiber connections in LAN enviornments
+        - Typically used for fiber connections in LAN environments
     - ST (Straight Tip / "Stick and Twist") 
     - LC (Lucent Connector / "Love Connector", side by side connectors)
     - MTRJ (Mechanical Transfer Registered Jack) 
@@ -92,9 +92,9 @@ Connector Contact Types:
         - Less Noise and stronger signal
         - Green connector
     - UPC (Ultra Physical Contact)
-        - More noise, possible singnal loss
+        - More noise, possible signal loss
         - Blue
-        - Suitable for enviorments that dont mind return loss (precision) like ethernet & LAN
+        - Suitable for environments that don't mind return loss (precision) like ethernet & LAN
 
 ### Fiber Multiplexing and Transceivers
 

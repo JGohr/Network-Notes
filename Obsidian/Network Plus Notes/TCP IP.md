@@ -24,7 +24,7 @@ Application Layer: Dictates how programs are to interface with the transport lay
 ***
 ## Data Transfer Over Networks
 
-Port: A 'logical' opening on a system representing a service or app thats listening for traffic
+Port: A 'logical' opening on a system representing a service or app that's listening for traffic
     - 0 -> 65,535
     - Well Known/Reserved: Ports 0 -> 1023
     - Ephemeral Ports: 1024 -> 65,535
@@ -36,7 +36,7 @@ Format: Protocol | Port Number | Usage
 File Transfer Protocol (FTP) | 20, 21 | Provides insecure file Transfer
 Secure Shell (SSH) | 22 | Provides secure remote control of another machine using text env
 Secure File Transfer Protocol (SFTP) | 22 | Provides secure file transfers
-Telnet | 23 | Provides insecure remote control of antoher machine using a text based env
+Telnet | 23 | Provides insecure remote control of another machine using a text based env
 Simple Mail Transfer Protocol (SMTP) | 25 | Provides the ability to send emails over the network
 Domain Name System (DNS) | 53 | Converts domain names to IP addresses and vice versa
 
@@ -44,9 +44,9 @@ Dynamic Host Control Protocol (DHCP) | 67, 68 | Automatically provides networks 
     - IP addresses
 	- Subnet mask
     - Default gateway
-    - Dns server
+    - DNS server
 
-Trivial File Transfer Protocol (TFTP) | 69 | Used as a lightweight FTP for sending congfig files or PXE booting
+Trivial File Transfer Protocol (TFTP) | 69 | Used as a lightweight FTP for sending config files or PXE booting
 Hypertext Transfer Protocol (HTTP) | 80 | Used for insecure web browsing                  
 Post Office Protocol Version Three (POP3) | 110 | Used exclusively for inbound email
 Network Time Protocol (NTP) | 123 | Used to keep accurate time for clients on a network
@@ -56,14 +56,14 @@ Simple Network Management Protocol (SNMP) | 161, 162 | Used to collect data on/m
 Lightweight Directory Access Protocol | 389 | Used to provide directory services to your network, like AD
 HTTP Secure (HTTPS) | 443 | Used for secure web browsing using SSL or TLS
 Server Message Block (SMB) | 445 | Used for windows file and printer sharing services
-System Logging Protocol (SysLog) | 514 | Used to send logging dta back to a centralized server
+System Logging Protocol (SysLog) | 514 | Used to send logging data back to a centralized server
 SMTP TLS | 587 | Secure and encrypted way to send emails
 LDAPS | 636 | Provides secure directory services
-IMAP over SSL | 993 | Secure and encrpyted way to recieve emails
-POP3 Over SSL | 995 | Secure and encrypted way to recieve emails
+IMAP over SSL | 993 | Secure and encrypted way to receive emails
+POP3 Over SSL | 995 | Secure and encrypted way to receive emails
 Structured Query Language Server Protocol (SQL) | 1433 | Used to comm from a client to a database engine
-SQLnet Protocol | 1521 | Used for comm from a client to an orocale database
-MySQL | 3306 | Used for comm from a cleint to the MySQL database engine
+SQLnet Protocol | 1521 | Used for comm from a client to an oracle database
+MySQL | 3306 | Used for comm from a client to the MySQL database engine
 Remote Desktop Protocol (RDP) | 3389 | Provides graphical remote control of another client or server
 Session Initiation Protocol (SIP) | 5060, 5061 | Used to init VoIP and video calls
 
@@ -72,7 +72,7 @@ Session Initiation Protocol (SIP) | 5060, 5061 | Used to init VoIP and video cal
 Nmap: Command line tool that maps a network
     Command Args: -sS (Syn Scan for SYN-ACK), -O (Operating System)
 
-ZenMap: Graphical interface for nmap
+Zen Map: Graphical interface for Nmap
 
 ###  IP Protocol Types
 

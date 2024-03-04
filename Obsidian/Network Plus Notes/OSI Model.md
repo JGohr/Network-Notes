@@ -1,6 +1,6 @@
 ## OSI Overview
 
-802.11 WiFi
+802.11 WIFI
 802.3 Ethernet
 
 Section 2
@@ -101,16 +101,16 @@ PDU = Segments
 L4 Protocols: TCP & UDP
      TCP (Transmission control protocol): 
 		Connection oriented protocol for reliable transport of Segments
-        Seeks acknoledgment for reception of data
+        Seeks acknowledgment for reception of data
 	    SYN -> SYN-ACK -> ACK | Three way handshake | C -> S -> C -> S
 	        This allows to ensure all data is getting to the destination
             Types of Flags:
                 SYN: Used to synchronize connection during three way handshake 
-                ACK: Used to acknoledge successful receipt of packets
+                ACK: Used to acknowledge successful receipt of packets
                 FIN: Used to tear down the handshake 
                 RST: Used when a client receives a packet that it was not expecting
                 PSH: Used to ensure data is given priority
-                URG: Labels a packet as urgent, proccess immediately
+                URG: Labels a packet as urgent, process immediately
                 ---P-P--[PSH P P P URG]--P---P--- 
                 Header Size: 20 Bytes
 
