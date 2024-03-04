@@ -40,12 +40,12 @@ Broadband vs Baseband: Broadband separates bandwidth into channels while baseban
     Baseband uses a reference clock to utilize synchronous communication
     Base = Single, Broad = Multiple
 
-Multiplexing: Allows multiple people to use a baseband connection 
+[[Multiplexing]]: Allows multiple people to use a baseband connection 
     - Time Division Multiplexing(TDM): Each session takes a turn, using time slots, to share the medium between all users
     - StatTDM: Dynamically allocates the time slots on a as needed basis 
     - Frequency Division Multiplexing: Divides the medium into channels based on frequency and each session is transmitted over a different 
 
-Layer 1 Device: Hub
+Layer 1 Device: [[Hub]]
 ***
 ## Data Link Layer : L2
 Package bits into frames to transmit over a network
@@ -65,7 +65,7 @@ Communication Synchronization:
     Synchronous - Uses the same reference clock, will use beginning and ended frames to tell when to start and stop transmission
     Asynchronous - Uses individual reference clocks and uses start and stop bits, no control over when devices can communicate 
 
-Types of operations: Switches, MAC Addresses, bridges
+Types of operations: [[Switch]], MAC Addresses, [[Bridge]]
 ***
 ## Network Layer : L3
 Forwards traffic with logical address, known as routing
@@ -90,7 +90,7 @@ Connection Services (Augment L2 connection services to improve reliability):
         Packet reordering: Splits up large amounts of packets and sends them to a specific destination, putting the packets back together at the end. Each packet gets numbered and sequenced
         ICMP: Sends error messages and operational info to IP destination
 
-Devices for L3: Router, Multi-layer switch, IPv4, IPv6, ICMP
+Devices for L3: [[Router]], [[Multi-layer switch]], IPv4, IPv6, ICMP
 ***
 ## Transport Layer : L4
 
@@ -136,7 +136,7 @@ Buffering:
     Occurs when devices allocate memory to store segments if bandwidth isn't available
 
     
-Layer 4 Devices: TCP, UDP, WAN Accelerators, Load Balancers & Firewalls
+Layer 4 Devices: TCP, UDP, WAN Accelerators, Load Balancers & [[Firewalls]]
 ***
 ## Session Layer : L5
 
