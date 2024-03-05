@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be75eb286cbec302",
+        "id": "f9c432d3791d2a2c",
         "type": "tabs",
         "children": [
           {
-            "id": "e8117073c24f9a2d",
+            "id": "81b4561ceeba074b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8117073c24f9a2d",
+  "active": "81b4561ceeba074b",
   "lastOpenFiles": [
     "Ethernet Fundamentals.md",
     "Cabling & Media Distribution.md",
