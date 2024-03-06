@@ -105,6 +105,61 @@ Classless subnets range from /25 - /30
 
 Created subnets = 2<sup>s</sup>  (s = number of borrowed bits)
 
-Assignable IP addresses = 2<sup>h</sup> - 2 (h = number of host bits)
+Assignable IP addresses/per subnet = 2<sup>h</sup> - 2 (h = number of host bits)
 The -2 in this formula is to compensate for two mandatory addresses in every network: Network ID (First IP in the network) & Broadcast ID(Last IP in the network)
+
+**CIDR Notation:** 192.168.1.4/26
+- Shorthand notation used to summarize continuous networks called using route aggregation
+
+**Variable Length Subnet Mask:**
+Allows subnets of various sizes to be used and requires a routing protocol that supports it
+- Essentially subnetting of subnets
+
+| CIDR | Subnets | Assignable IPs |
+| ---- | ------- | -------------- |
+| /24  | 1       | 256 - 2        |
+| /25  | 2       | 128 - 2        |
+| /26  | 4       | 64 - 2         |
+| /27  | 8       | 32 - 2         |
+| /28  | 16      | 16 - 2         |
+| /29  | 32      | 8 - 2          |
+| /30  | 64      | 4 - 2          |
+
+##### PAY ATTENTION ON TEST DAY FOR ASSIGNABLE IPS VS TOTAL IPS
+
 ***
+# IPv6 Addressing
+
+**Address Exhaustion:** Running out of network addresses with IPv4
+
+IPv6 uses 128-bit addresses instead of 32-bits
+Hexadecimal: 2018::4815:54AE (:: represents zeros)
+
+IPv6 Benefits:
+- Larger address space
+- No broadcasts
+- No fragmentation / No MTUs
+- Can coexist with IPv4
+- Simplified Header
+
+Dual Stack Devices: Running IPv4 and IPv6 protocols simultaneously
+Tunneling: Allows existing IPv4 router to carry IPv6 traffic
+##### Unicast, Multicast & Anycast (Data Flows)
+
+**Unicast:** Used to identify a single interface
+- **Globally Routed Address:** Starts with **2000 - 3999**
+- **Linked-Local Address:** Begins with **FE80**, like a private IPv4 IP that can only be used on LAN
+- **SLAAC (Stateless Address Autoconfiguration):** Eliminates the need to obtain addresses or configuration information from a centralized server
+	- EUI (Extended Unique Identifier): Allows a host to assign itself a unique 64-bit IPv6 interface identifier called a EUI-64
+	- EUI64 = First 24 bits of the interfaces MAC + FF FE + Last 24 bits of the interfaces MAC
+	- This EUI64 will be assigned to the end of the IPv6 first 64 bits to created a globally routed address
+- **DHCPv6:** Allows DHCP to auto assign addresses from a DHCPv6 server
+
+**Multicast:** Used to identify a set of interfaces, begins with **FF**
+**Anycast:** Assigns a identical address to multiple devices and send data to the nearest/optimal device
+
+**NDP (Neighbor Discovery Protocol):** 
+Provides services such as: Router solicitation/advertisement & Neighbor solicitation/advisement + redirection
+***
+# Routing 
+
