@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "253a183f298a68d7",
+        "id": "c0a7356b44e38963",
         "type": "tabs",
         "children": [
           {
-            "id": "4b60c7d0829d7740",
+            "id": "6c1e1921cfa48da7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "428e45a68c9f6a1f",
@@ -139,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b60c7d0829d7740",
+  "active": "6c1e1921cfa48da7",
   "lastOpenFiles": [
+    "Routing.md",
     "IP Addressing.md",
     "OSI Model.md",
     "Ethernet Fundamentals.md",

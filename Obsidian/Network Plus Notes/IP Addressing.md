@@ -161,5 +161,5 @@ Tunneling: Allows existing IPv4 router to carry IPv6 traffic
 **NDP (Neighbor Discovery Protocol):** 
 Provides services such as: Router solicitation/advertisement & Neighbor solicitation/advisement + redirection
 ***
-# Routing 
+
 
