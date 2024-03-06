@@ -97,12 +97,14 @@ Dynamic allocation of IP addresses and associated addresses. Most SOHO (Small ow
 ***
 # Subnetting 
 
+##### Subnetting:
+Taking a large network and splitting it up into smaller networks, this is simply done by taking host bits and dedicating them for extra network bits
 
+Subnet masks modify subnets and create better scoped networks
+Classless subnets range from /25 - /30
 
-asdjasghdjkd
+Created subnets = 2<sup>s</sup>  (s = number of borrowed bits)
 
-
-
+Assignable IP addresses = 2<sup>h</sup> - 2 (h = number of host bits)
+The -2 in this formula is to compensate for two mandatory addresses in every network: Network ID (First IP in the network) & Broadcast ID(Last IP in the network)
 ***
-
-
