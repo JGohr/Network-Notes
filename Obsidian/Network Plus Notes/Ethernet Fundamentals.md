@@ -97,7 +97,7 @@ Traffic Filtering: Permits or denies traffic based on a IP address
 Quality of Service: Forwards traffics based on priority markings
 ***
 ### VLAN & Misc Ethernet Devices
-VLAN (Virtual Local Area Network)
+[[VLAN]] (Virtual Local Area Network)
     - Allows different logical networks to share the same physical hardware and provides added security and efficiency
     - VLAN Trunking (802.1q): multiple clans transmitted over the same cable
     - VLAN use 4 byte identifier: TPI/TCI (Tag Protocol identifier/Tag control identifier)
@@ -114,7 +114,7 @@ ICS (Industrial Control System): Describe control systems and instrumentation fo
 SCADA (Supervisory Control and Data Acquisition): Acquire and transmit data from different systems to a centralized point
 ***
 ### Spanning Tree Protocol
-Spanning Tree Protocol (802.1d) Permits redundant links between switches and prevents looping of network traffic
+[[Spanning Tree Protocol ]](802.1d) Permits redundant links between switches and prevents looping of network traffic
 	- Root Bridge: Switch with the lowest bridge ID (BID)
 	- Non-root bridge: All other switches on the topology
 	- BID is made up of: Priority value, MAC address
@@ -140,7 +140,7 @@ Broadcast Storm: Multiple copies of frames being forwarded back and forth which 
 VPN Concentrator: Terminates VPN tunnels and allows for multiple VPN connections in one location
 	VPN Headend: VPN Concentrator used to terminate IPSec VPN tunnels within a router or other device
 
-Firewall: Network security appliance placed at the boundary of a network
+[[Firewall]]: Network security appliance placed at the boundary of a network
 	- Stateful or stateless
 	-Software or hardware
 
@@ -148,7 +148,7 @@ NGFW Next Gen Firewall: Conducts deep packet inspection at L7 and can look throu
 
 IDS/IPS: Intrusion (Detection/Prevention) System: Recognizes and responds to attacks through signatures and anomalies
 
-Proxy Server: Makes requests to an external network on behalf of a client
+[[Proxy Server]]: Makes requests to an external network on behalf of a client
 
 Content Engine/Caching Engine: Performs the caching functions of a proxy server
 

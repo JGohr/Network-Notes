@@ -69,7 +69,6 @@ An IP address that does not correlate to an actual physical network interface.
 - Routers often use virtual IP addresses to provide redundancy in their connectivity options
 ##### Subinterfaces:
 A virtual interface that is created by dividing up one physical interface into multiple logical interfaces
-
 #### IPv4 Data Flows
 - Unicast: Data travels from a single source device to a single destination device
 - Multicast: Data travels from a single source device to multiple (but specific) devices
@@ -84,7 +83,7 @@ Manually typing in the IP address for the host, its subnet mask, default gateway
 Dynamic allocation of IP addresses and associated addresses. Most SOHO (Small owner/Home Office) devices already run a DHCP server and is turned on by default.
 ###### Types of dynamic assignment: 
 - **BOOTP (Bootstrap protocol):** Dynamically assigns IP addresses and allows a workstation to load a copy of their boot image over a network  
-- **DHCP:** Assigns an IP based on a assignable scope or pool of addresses and provides the ability to configure numerous other options within it. Each IP is leased for a period of time and returns to the pool when the lease is expired.
+- **[[DHCP]]:** Assigns an IP based on a assignable scope or pool of addresses and provides the ability to configure numerous other options within it. Each IP is leased for a period of time and returns to the pool when the lease is expired.
 - **APIPA:** Used when a device does not have a static IP address or cannot reach a DHCP server. APIPA assigned devices cannot communicate outside the LAN or with non-APIPA devices.
 - **ZeroConf:** A newer technology based on APIPA which provides a lot of the same features and some new ones
 ##### Components of a fully configured client:

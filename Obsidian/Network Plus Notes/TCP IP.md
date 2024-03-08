@@ -80,7 +80,7 @@ TCP: Conducts a three way handshake between a client and a server while using wi
 
 UDP: Detects if packets are corrupted when they are received using a checksum | Connectionless but faster
 
-Generic Routing Encapsulation (GRE): Creates a tunnel to share data between two devices over a public network | 'No encryption'
+[[Generic Routing Encapsulation]] (GRE): Creates a tunnel to share data between two devices over a public network | 'No encryption'
 
 Internet Control Message Protocol (ICMP): Used to communicate info about network connectivity back to the sender, sends ICMP datagrams | Example: ping command in CMD
 
@@ -89,5 +89,5 @@ IPSec: Used to protect one or more data flows between peers | Provides confident
     - Used heavily in VPNS
     This protocol uses two headers:
         - Authentication Header (AH): Protocol within IPSec that provides authentication and integrity on data via hashing
-        - Encapsulation Security Payload (ESP): Provides encrpytion and integriy for the data packets sent over IPsec protocol
-        - Main difference: ESP uses encrpytion and authentication algorithms while AH uses hashing
+        - Encapsulation Security Payload (ESP): Provides encryption and integrity for the data packets sent over IPsec protocol
+        - Main difference: ESP uses encryption and authentication algorithms while AH uses hashing

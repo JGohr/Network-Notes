@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c0a7356b44e38963",
+        "id": "a79e38cb6963a428",
         "type": "tabs",
         "children": [
           {
-            "id": "6c1e1921cfa48da7",
+            "id": "e9718dd04cba58c8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,14 +138,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c1e1921cfa48da7",
+  "active": "e9718dd04cba58c8",
   "lastOpenFiles": [
     "Routing.md",
+    "Links/Routing Table.md",
     "IP Addressing.md",
-    "OSI Model.md",
-    "Ethernet Fundamentals.md",
+    "Links/DHCP.md",
     "Cabling & Media Distribution.md",
+    "Ethernet Fundamentals.md",
+    "Links/Proxy Server.md",
+    "OSI Model.md",
+    "Firewalls.md",
+    "Links/Firewall.md",
+    "Links/Spanning Tree Protocol.md",
+    "Links/VLAN.md",
     "TCP IP.md",
+    "Links/Communication Synchronization.md",
+    "Links/Generic Routing Encapsulation.md",
     "Links/Router.md",
     "Links/Multiplexing.md",
     "Links/Hub.md",
