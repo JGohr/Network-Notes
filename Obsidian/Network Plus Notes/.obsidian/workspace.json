@@ -11,8 +11,12 @@
             "id": "6de39343685416bf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Links/VLAN.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "428e45a68c9f6a1f",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Links/VLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Links/VLAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Links/VLAN.md"
+              }
             }
           }
         ]
@@ -141,27 +148,27 @@
   },
   "active": "6de39343685416bf",
   "lastOpenFiles": [
-    "Links/DHCP.md",
-    "OSI Model.md",
+    "Links/Switch.md",
+    "Links/Spanning Tree Protocol.md",
+    "Links/Routing Table.md",
+    "Links/Router.md",
+    "Links/Proxy Server.md",
+    "Links/Multiplexing.md",
+    "Links/Multi-layer switch.md",
+    "Links/Hub.md",
     "Links/Generic Routing Encapsulation.md",
-    "Links/Communication Synchronization.md",
     "Links/Firewall.md",
+    "Links/DHCP.md",
+    "Links/Communication Synchronization.md",
     "Links/Bridge.md",
+    "OSI Model.md",
     "Ethernet Fundamentals.md",
     "TCP IP.md",
     "IP Addressing.md",
     "Routing.md",
-    "Links/Hub.md",
-    "Links/Multiplexing.md",
-    "Links/Routing Table.md",
     "Cabling & Media Distribution.md",
-    "Links/Proxy Server.md",
     "Firewalls.md",
-    "Links/Spanning Tree Protocol.md",
     "Links/VLAN.md",
-    "Links/Router.md",
-    "Links/Multi-layer switch.md",
-    "Links/Switch.md",
     "Links",
     "Bridges.md",
     "Switches.md",
