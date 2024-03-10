@@ -42,12 +42,12 @@ Types of Hubs:
     - Smart: Active hub enhanced with SNMP (Simple Network Mgmt)
 
 Layer 2:
-    - Bridge: Analyzes source MAC addresses and makes smart forwarding choices based on the destination MAC
-    - Switch (Multiport Bridge): L2 device that connects multiple network segments together
+    - [[Bridge]]: Analyzes source MAC addresses and makes smart forwarding choices based on the destination MAC
+    - [[Switch]] (Multiport Bridge): L2 device that connects multiple network segments together
 
 Layer 3:
-    - Router: L3 device that connects multiple networks and makes forwarding decisions based on logical net info
-    - L3 Switch: Makes L3 routing decisions and then interconnects entire networks, not just segments
+    - [[Router]]: L3 device that connects multiple networks and makes forwarding decisions based on logical net info
+    - [[Multi-layer switch]]: Makes L3 routing decisions and then interconnects entire networks, not just segments
 
 | Device Type        | Collision Domains | Broadcast Domains | OSI Layer |
 | ------------------ | ----------------- | ----------------- | --------- |
@@ -60,9 +60,9 @@ Layer 3:
 #####  Additional Ethernet Switch Features  #######################
 
 Examples of Ethernet Features:
-    - VLANS
+    - [[VLAN]]
     - Trunking
-    - Spanning Tree Protocol
+    - [[Spanning Tree Protocol]]
     - Link Aggregation (IEEE 802.3ad)
     - POE (Power Over Ethernet)
     - Port Monitoring

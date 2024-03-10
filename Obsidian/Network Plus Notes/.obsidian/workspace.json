@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "8bef9698348bfd78",
+        "id": "e973b04fa64ea191",
         "type": "tabs",
         "children": [
           {
-            "id": "c1d8f531b5be6ce5",
+            "id": "6de39343685416bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "428e45a68c9f6a1f",
@@ -131,35 +132,35 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1d8f531b5be6ce5",
+  "active": "6de39343685416bf",
   "lastOpenFiles": [
-    "Links/Hub.md",
-    "OSI Model.md",
-    "Routing.md",
-    "Links/Multiplexing.md",
-    "IP Addressing.md",
-    "Links/Routing Table.md",
     "Links/DHCP.md",
-    "Cabling & Media Distribution.md",
+    "OSI Model.md",
+    "Links/Generic Routing Encapsulation.md",
+    "Links/Communication Synchronization.md",
+    "Links/Firewall.md",
+    "Links/Bridge.md",
     "Ethernet Fundamentals.md",
+    "TCP IP.md",
+    "IP Addressing.md",
+    "Routing.md",
+    "Links/Hub.md",
+    "Links/Multiplexing.md",
+    "Links/Routing Table.md",
+    "Cabling & Media Distribution.md",
     "Links/Proxy Server.md",
     "Firewalls.md",
-    "Links/Firewall.md",
     "Links/Spanning Tree Protocol.md",
     "Links/VLAN.md",
-    "TCP IP.md",
-    "Links/Communication Synchronization.md",
-    "Links/Generic Routing Encapsulation.md",
     "Links/Router.md",
     "Links/Multi-layer switch.md",
-    "Links/Bridge.md",
     "Links/Switch.md",
     "Links",
     "Bridges.md",
