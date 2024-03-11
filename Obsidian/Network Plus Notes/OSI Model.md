@@ -60,7 +60,7 @@ Logic Link Control
     Provides flow control
     Provides error control via checksum
 
-[[Communication Synchronization]]:
+Communication Synchronization:
     Isochronous - Uses a common reference clock and creates time slots for transmission of data
     Synchronous - Uses the same reference clock, will use beginning and ended frames to tell when to start and stop transmission
     Asynchronous - Uses individual reference clocks and uses start and stop bits, no control over when devices can communicate 

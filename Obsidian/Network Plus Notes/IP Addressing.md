@@ -99,7 +99,12 @@ Dynamic allocation of IP addresses and associated addresses. Most SOHO (Small ow
 ##### Subnetting:
 Taking a large network and splitting it up into smaller networks, this is simply done by taking host bits and dedicating them for extra network bits
 
-Subnet masks modify subnets and create better scoped networks
+Borrowing of network bits visualized:
+	192.168.32.5 - 255.255.255.0 (11111111.11111111.11111111.00000000)
+	to
+	192.168.32.5 - 255.255.254.0 (11111111.11111111.11111110.00000000)
+
+[[Subnet]] masks modify subnets and create better scoped networks
 Classless subnets range from /25 - /30
 
 Created subnets = 2<sup>s</sup>  (s = number of borrowed bits)
