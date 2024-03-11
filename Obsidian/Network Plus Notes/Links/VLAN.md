@@ -1,0 +1,1 @@
+Function of a "Virtual Area Network"
