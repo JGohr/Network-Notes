@@ -11,11 +11,20 @@
             "id": "8303fd3dfa6d4bef",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e066766e90ad181",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,8 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8303fd3dfa6d4bef",
+  "active": "9e066766e90ad181",
   "lastOpenFiles": [
+    "Routing.md",
+    "IP Addressing.md",
     "OSI Model.md",
     "Links/Communication Synchronization.md",
     "Ethernet Fundamentals.md",
@@ -159,8 +170,6 @@
     "Links/Switch.md",
     "Links/VLAN.md",
     "Links/VLAN vs Subnet.md",
-    "IP Addressing.md",
-    "Routing.md",
     "TCP IP.md",
     "Cabling & Media Distribution.md",
     "Firewalls.md",
