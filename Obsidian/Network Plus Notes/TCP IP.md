@@ -38,13 +38,13 @@ Secure Shell (SSH) | 22 | Provides secure remote control of another machine usin
 Secure File Transfer Protocol (SFTP) | 22 | Provides secure file transfers
 Telnet | 23 | Provides insecure remote control of another machine using a text based env
 Simple Mail Transfer Protocol (SMTP) | 25 | Provides the ability to send emails over the network
-Domain Name System (DNS) | 53 | Converts domain names to IP addresses and vice versa
+Domain Name System ([[DNS]]) | 53 | Converts domain names to IP addresses and vice versa
 
 Dynamic Host Control Protocol (DHCP) | 67, 68 | Automatically provides networks params to your clients such as: 
     - IP addresses
 	- Subnet mask
     - Default gateway
-    - DNS server
+    - [[DNS]] server
 
 Trivial File Transfer Protocol (TFTP) | 69 | Used as a lightweight FTP for sending config files or PXE booting
 Hypertext Transfer Protocol (HTTP) | 80 | Used for insecure web browsing                  

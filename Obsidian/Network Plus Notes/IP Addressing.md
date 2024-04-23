@@ -78,7 +78,7 @@ A virtual interface that is created by dividing up one physical interface into m
 
 Types of address assignment: **Static** & **Dynamic**
 ##### Static Assignment
-Manually typing in the IP address for the host, its subnet mask, default gateway & DNS server. This method is very impractical for larger, enterprise networks.
+Manually typing in the IP address for the host, its subnet mask, default gateway & [[DNS]] server. This method is very impractical for larger, enterprise networks.
 ##### Dynamic Assignment
 Dynamic allocation of IP addresses and associated addresses. Most SOHO (Small owner/Home Office) devices already run a DHCP server and is turned on by default.
 ###### Types of dynamic assignment: 
@@ -90,7 +90,7 @@ Dynamic allocation of IP addresses and associated addresses. Most SOHO (Small ow
 - IP Address
 - Subnet Mask
 - Default Gateway
-- Server Address (DNS or WINS)
+- Server Address ([[DNS]] or WINS)
 
 **Windows Internet Name Service (WINS):** Identifies NetBIOS systems on a TCP/IP network and converts those NetBIOS names to IP addresses
 ***

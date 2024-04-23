@@ -178,7 +178,7 @@ Application Services: Unites communicating components from more than one network
 
 Service Advisment: Sending out announcements to other devices on the network to offer services
 
-Types of layer 7 operations: Email applications, web browsing, DNS, FTP, Remote access
+Types of layer 7 operations: Email applications, web browsing, [[DNS]], FTP, Remote access
     All low level operations
 
 ***
