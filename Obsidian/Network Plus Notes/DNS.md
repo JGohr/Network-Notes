@@ -21,7 +21,7 @@ Internal DNS: Allows cloud instances on the same network access each other using
 
 External DNS Records created around the domain names from a central authority
 
-TTL: Tells the DNS resolver how long to cache a query before req a new one
+TTL (Time To Live): Tells the DNS resolver how long to cache a query before req a new one
 
 DNS Cache/Resolver: Makes a local copy of every DNS entry it resolves as you connect to the internet
 

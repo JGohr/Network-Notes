@@ -53,6 +53,7 @@ MAC: Media Access Control (Logical) / Uses a 48-bit address which is hexadecimal
 First 24bits = vendor code, last 24 = unique id 
 
 LAYER 2 VIEWS DEVICES LOGICALLY
+ARP (Address Resolution Protocol)
 
 Logic Link Control 
     Provides connection services

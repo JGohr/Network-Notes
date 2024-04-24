@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8f8a9cd1135f2903",
+        "id": "975e3a7745b1e64e",
         "type": "tabs",
         "children": [
           {
-            "id": "137ddd45c65d6488",
+            "id": "d9680011440d166e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Network Security.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dns",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network Security.md"
+              }
             }
           }
         ]
@@ -139,13 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "137ddd45c65d6488",
+  "active": "d9680011440d166e",
   "lastOpenFiles": [
-    "TCP IP.md",
+    "Network Security.md",
     "OSI Model.md",
+    "DNS.md",
+    "TCP IP.md",
     "IP Addressing.md",
     "Links/DHCP.md",
-    "DNS.md",
     "Links/Routing Table.md",
     "Ethernet Fundamentals.md",
     "Routing.md",
@@ -168,7 +177,6 @@
     "Cabling & Media Distribution.md",
     "Firewalls.md",
     "Links",
-    "Bridges.md",
     "Links"
   ]
 }
