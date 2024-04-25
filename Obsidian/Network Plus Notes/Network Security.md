@@ -43,3 +43,53 @@ Vulnerability: A weakness in your system that could result in poor outcomes
 	- CVE (Common Vulnerability Exposure): A list of publicly disclosed weaknesses
 	- Zero-day: Any weaknesses that is unknown when the system is created/implemented
 - Exploit: Piece of code that takes advantage of a security flaw
+
+### Risk Management
+
+Function: The identification, evaluation and prioritization of risks to minimize, monitor and control the vulnerability exploited by a threat.
+
+Risk Assessment: A process that identifies potential hazards and analyzes what could happen if a hazard occurs
+- Security: Implement Key Security Controls
+- Threat: Identifying threats that may be used to attack the system/network
+
+MITRE ATTACK: DB of known attacks
+
+Vulnerability Assessment: Identifying vulnerabilities in a network and planning a resolution, tools to find this are:
+- NESSUS
+- QUALYSGUARD
+- OPENVAS
+
+Pen Test: Trying to safely exploit a system by exploiting vulnerabilities
+
+Posture Assessment: Seeks threats caused by misconfiguration and patching delays
+
+Business Risk Assessment:
+- Process: Is your organization conducting properly from a security standpoint
+- Vendor: Reducing the risk of supply chain incidents (Cisco counterfeit switch example)
+
+### Security Principles
+
+Least Privilege: Using the minimum level of permission to complete a task 
+
+Role Based Access: 
+- DAC (Direction Access Control): Access is determined by owner of the resource
+- MAC (Mandatory Access Control): Computer System gets to decide who can access what objects using data labels
+- RBAC: Controller by the system but has a set of permissions instead of individual permissions, could be grouped by department
+
+Zero-trust: Requires users to authorized and authenticated before being able to access any data
+
+### Defense In-Depth
+
+Function: Approach in cyber security that layers certain practices to ensure security
+
+DMZ: Perimeter network that protects an orgs internal LAN from untrusted traffic
+Screen Subnet: Subnet in the network architecture that uses a single firewall with three interfaces to connect three dissimilar networks
+- Triple homed firewall
+
+Separation of Duties: Prevents frauds and abuse by distributing various tasks and approval authorities across a number of different users
+
+Dual Control: Two people have to be present to perform a action
+
+Split Knowledge: Splitting the knowledge between two people
+
+Honeypot: Attract and traps potential attackers to counteract any attempts at unauthorized access to a network
