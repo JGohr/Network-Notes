@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "975e3a7745b1e64e",
+        "id": "3cb9038a7c4a20a5",
         "type": "tabs",
         "children": [
           {
-            "id": "d9680011440d166e",
+            "id": "5599c3a97b4a1a1b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Security.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Network Security.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,9 +139,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9680011440d166e",
+  "active": "5599c3a97b4a1a1b",
   "lastOpenFiles": [
     "Network Security.md",
+    "Routing.md",
     "OSI Model.md",
     "DNS.md",
     "TCP IP.md",
@@ -157,7 +150,6 @@
     "Links/DHCP.md",
     "Links/Routing Table.md",
     "Ethernet Fundamentals.md",
-    "Routing.md",
     "Network Services.md",
     "Links/Communication Synchronization.md",
     "Links/Spanning Tree Protocol.md",
