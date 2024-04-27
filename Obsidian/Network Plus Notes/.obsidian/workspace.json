@@ -11,8 +11,12 @@
             "id": "5599c3a97b4a1a1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Network Attacks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "428e45a68c9f6a1f",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network Attacks.md"
+              }
             }
           }
         ]
@@ -141,6 +150,7 @@
   },
   "active": "5599c3a97b4a1a1b",
   "lastOpenFiles": [
+    "Network Attacks.md",
     "Network Security.md",
     "Routing.md",
     "OSI Model.md",
@@ -167,7 +177,6 @@
     "Links/VLAN.md",
     "Links/VLAN vs Subnet.md",
     "Cabling & Media Distribution.md",
-    "Firewalls.md",
     "Links",
     "Links"
   ]
