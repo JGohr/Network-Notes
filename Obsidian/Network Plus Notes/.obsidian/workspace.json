@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3cb9038a7c4a20a5",
+        "id": "a65748c08fdd81ad",
         "type": "tabs",
         "children": [
           {
-            "id": "5599c3a97b4a1a1b",
+            "id": "770b0af2fc83a99d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Attacks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Network Attacks.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,7 +140,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5599c3a97b4a1a1b",
+  "active": "770b0af2fc83a99d",
   "lastOpenFiles": [
     "Network Attacks.md",
     "Network Security.md",
